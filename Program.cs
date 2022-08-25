@@ -17,12 +17,10 @@
 
         // Compare, birinci değişken ikinci değişkene eşit ise 0, ilk değişkenin karakter sayısı birden büyük ise 1, daha küçük ise -1 döndürür. 
         // comparato 2 değişkeni belirttikten sonra 3. prametre true olursa küçük büyük harf duyarlı, false olursa duyarsız olur.  
-
-
         // string degisken = "Dersimiz Csharp, Hoşgeldiniz!";
         // string degisken2 = "dersimiz Csharp, Hoşgeldiniz!";
         Console.WriteLine(degisken.CompareTo(degisken2));
-        Console.WriteLine(string.Compare(degisken,degisken2,true));  // Dersimiz Csharp, Hoşgeldiniz! ile dersimiz Csharp, Hoşgeldiniz! karşılştırıldı ve Sonuç 0
+        Console.WriteLine(string.Compare(degisken,degisken2,true));  // Sonuç 0
         Console.WriteLine(string.Compare(degisken,degisken2,false)); // sonuc 1
 
         // context değiskenin içinde bir texti ararken kulalnılır. 
@@ -46,7 +44,6 @@
         //Dersimiz Csharp, Hoşgeldiniz!                        Csharp
         Console.WriteLine(degisken2.PadRight(20)+degisken);
         Console.WriteLine(degisken2.PadRight(20,'*')+degisken);
-
         //  remove
         Console.WriteLine(degisken.Remove(10,5));
         
